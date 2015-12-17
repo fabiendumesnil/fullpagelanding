@@ -1,3 +1,42 @@
+@import "http://fonts.googleapis.com/css?family=Comfortaa|Inika";
+
+$green         : #507356;
+$lightBlue     : #97D5D9;
+$whitecloud    : #fefefe;
+$desatBlue     : #464B65;
+$skin          : #B08B7B;
+
+$headFont : 'Comfortaa', sans-serif;
+$bodyFont : 'Inika', serif;
+
+@import "compass";
+
+@import "compass/reset";
+
+html, body {
+	background: $lightBlue;
+}
+
+header {
+	font-family: $headFont;
+	font-size: 3em;
+	color: $whitecloud;
+	background-image: url("../images/fotolia_70572917.jpg");
+	background-size: cover;
+	height: 100vh;
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+p {
+	max-width: 600px;
+	margin: auto;
+}
+
+/*
 $font-stack:    Helvetica, sans-serif;
 $primary-color: #333;
 
@@ -5,3 +44,4 @@ body {
   font: 100% $font-stack;
   color: $primary-color; 
 }
+*/
