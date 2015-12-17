@@ -1,0 +1,15 @@
+{
+  "name": "full-page-landing",
+  "version": "1.0.0",
+  "description": "Learning how to create a full-page landing page",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabiendumesnil/fullpagelanding.git"
+  },
+  "author": "Fabien Dumesnil",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}
